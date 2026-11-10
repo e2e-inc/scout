@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/@testerarmy/scout"><img src="https://img.shields.io/npm/v/@testerarmy/scout?logo=npm&color=cb3837" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/@testerarmy/scout"><img src="https://img.shields.io/npm/dm/@testerarmy/scout?logo=npm" alt="npm downloads" /></a>
-  <a href="https://github.com/tester-army/scout/actions/workflows/ci.yml"><img src="https://github.com/tester-army/scout/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://github.com/e2e-inc/scout/actions/workflows/ci.yml"><img src="https://github.com/e2e-inc/scout/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" /></a>
 </p>
 
@@ -40,7 +40,7 @@ not by reviewing endpoints in isolation.
 Only test the API above, which I authorize. Verify that all test data is removed.
 ```
 
-`agent init` copies the version-matched [Scout skill](./skills/scout/SKILL.md) to `.agents/skills/scout/` and adds a discovery note to `AGENTS.md`. It does not run a remote installer. You can also install the skill with `npx skills add tester-army/scout`.
+`agent init` copies the version-matched [Scout skill](./skills/scout/SKILL.md) to `.agents/skills/scout/` and adds a discovery note to `AGENTS.md`. It does not run a remote installer. You can also install the skill with `npx skills add e2e-inc/scout`.
 
 ## Quick start
 

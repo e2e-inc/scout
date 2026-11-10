@@ -15,7 +15,7 @@
   "author": "Tester Army <hello@tester.army>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tester-army/scout.git"
+    "url": "git+https://github.com/e2e-inc/scout.git"
   },
   "bin": {
     "scout": "./dist/cli.js"
